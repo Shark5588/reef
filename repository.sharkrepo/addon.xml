@@ -4,9 +4,9 @@
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
     <extension point="xbmc.addon.repository" name="Shark Repository">
-	<info compressed="false">https://raw.githubusercontent.com/Shark5588/reef/master/addons.xml</info>
-	<checksum>https://raw.githubusercontent.com/reef/master/addons.xml.md5</checksum>
-	<datadir zip="true">https://raw.githubusercontent.com/Shark5588/reef/master/</datadir>
+	<info compressed="false">https://raw.githubusercontent.com/Shark5588/master/reef/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/master/reef/addons.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/Shark5588/master/reef/</datadir>
 	<hashes>false</hashes>
 
     <dir>
