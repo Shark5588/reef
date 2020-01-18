@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.sharkrepo" name="[COLOR dodgerblue]SHARK REPO[/COLOR]" version="1.2.3" provider-name="Shark">
+<addon id="repository.sharkrepo" name="[COLOR dodgerblue]SHARK REPO[/COLOR]" version="1.2.4" provider-name="Shark">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -14,6 +14,12 @@
         <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
     </dir>
+	
+	 <dir>
+         <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+         <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+         <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+     </dir>
 		
     <dir>
         <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
@@ -29,7 +35,7 @@
 	
     </extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Shark repository v1.2.3</summary>
+		<summary lang="en">Shark repository v1.2.4</summary>
 		<description lang="en">The Official Repo for The Shark</description>
 		<genre>sports,wizard,canadian,french,usa</genre>
 	</extension>
