@@ -1,4 +1,4 @@
-# Educational purposes only /Private do not Share Please Youtuber's
+# Educational purposes only /Jaws is a Private Addon do not Share, Please Youtuber's
 
 * The Shark
  
