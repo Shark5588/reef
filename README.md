@@ -2,7 +2,7 @@
 
 * Creat accounts for TMDB,TRATK,TVDB,Last.fm and REAL-DEBRID
 
-* Add your own API
+* Add your own API in Jaws Settings
 
    * TRAKT
 
@@ -11,6 +11,10 @@
     * TVDB
 
     You can get a TVDB Api by clicking here https://www.thetvdb.com/?tab=apiregister
+    
+    * Last.fm
+
+    You can get a Last.fm Api by clicking here https://www.last.fm/api
 
 * The Shark
  
