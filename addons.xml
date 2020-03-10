@@ -95,7 +95,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.jaws" name="[B][COLOR dodgerblue]WTF SHARK[/B][/COLOR]" version="0.1" provider-name="Shark55">
+<addon id="plugin.video.jaws" name="[B][COLOR dodgerblue]Jaws[/B][/COLOR]" version="0.2" provider-name="Shark55">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -197,34 +197,39 @@
 
 <addon id="plugin.video.sports55classic"
        name="[B][COLOR dodgerblue]Sports 55 Classic[/B][/COLOR]"
-       version="1.0.1"
+       version="1.0.2"
        provider-name="Shark55">
+
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
+	<import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-	<import addon="script.module.resolveurl" version="5.0.00"/>
-    <import addon="script.module.urlresolver" />
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.resolveurl" version="5.0.00"/>
+    <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.livestreamer" optional="true"/>
+	<import addon="script.module.pyamf" optional="true"/>
     <import addon="plugin.video.elementum" version="0.0.62" optional="true"/>
-
-
-
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+
+   <extension point="xbmc.addon.repository" name="Shark Repository">
+	    <info compressed="false">https://raw.githubusercontent.com/Shark5588/reef/master/addons.xml</info>
+	    <checksum>https://raw.githubusercontent.com/Shark5588/reef/master/addons.xml.md5</checksum>
+	    <datadir zip="true">https://raw.githubusercontent.com/Shark5588/reef/master/</datadir>
+    </extension>
+
   <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <description lang="en">[COLOR dodgerblue]Sports Classic Don't host any servers  nor streams  all content shared here is freely available all over the web [/COLOR] Peace !</description>
+    <summary>[COLOR dodgerblue]Sports Classic Don't host any servers  nor streams  all content shared here is freely available all over the web [/COLOR] Peace !</summary>
+    <description lang="en">[COLOR white][B]Sports IPTV m3u  [/B][/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -245,10 +250,10 @@
   <extension point="xbmc.addon.metadata">
     <summary>SopCast and AceStream for Kodi</summary>
     <description lang="en">Plexus - Any complex structure containing an intricate network of parts. Plexus brings native peer-to-peer support (AceStream and SopCast) for Kodi Entertainment Center for several platforms.[CR][CR]Documentation: (missing)</description>
-    <description lang="pt">Plexus - Uma estrutura complexa constituída por uma rede de partes. O Plexus adiciona suporte peer-to-peer nativo (AceStream e Sopcast) ao Kodi Entertainment Center para várias plataformas.[CR][CR]Documentação: (em falta)</description>
-    <description lang="es">Plexus - Una estructura compleja conteniendo una intrincada red de partes. Plexus añade soporte nativo peer-to-peer (AceStream y SopCast) al Centro de Entretenimiento Kodi para varias plataformas.[CR][CR]Documentacion: (falta)</description>
+    <description lang="pt">Plexus - Uma estrutura complexa constituÃ­da por uma rede de partes. O Plexus adiciona suporte peer-to-peer nativo (AceStream e Sopcast) ao Kodi Entertainment Center para vÃ¡rias plataformas.[CR][CR]DocumentaÃ§Ã£o: (em falta)</description>
+    <description lang="es">Plexus - Una estructura compleja conteniendo una intrincada red de partes. Plexus aÃ±ade soporte nativo peer-to-peer (AceStream y SopCast) al Centro de Entretenimiento Kodi para varias plataformas.[CR][CR]Documentacion: (falta)</description>
 	<disclaimer lang="en">The author does not host nor distribute any of the content you may watch using this addon. The author has no part in the development of any included technologies. When seeking help in Kodi's forum please respect rules (http://kodi.wiki/view/Forum_rules).</disclaimer>
-    <disclaimer lang="pt">Os autores não alojam nem distribuem nenhum do conteúdo que poderá ser reproduzido a partir deste addon. Os autores não têm qualquer parte no desenvolvimento de qualquer uma das tecnologias. Se procurar ajuda no fórum oficial do Kodi por favor respeite as regras do fórum (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <disclaimer lang="pt">Os autores nÃ£o alojam nem distribuem nenhum do conteÃºdo que poderÃ¡ ser reproduzido a partir deste addon. Os autores nÃ£o tÃªm qualquer parte no desenvolvimento de qualquer uma das tecnologias. Se procurar ajuda no fÃ³rum oficial do Kodi por favor respeite as regras do fÃ³rum (http://kodi.wiki/view/Forum_rules).</disclaimer>
    	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
     <platform>all</platform>
   </extension>
@@ -304,14 +309,14 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Elementum torrents provider</summary>
-        <summary lang="hr">Elementum torrent pružatelji usluga</summary>
+        <summary lang="hr">Elementum torrent pruÅ¾atelji usluga</summary>
 		<summary lang="es">Proveedor de torrents Elementum</summary>
         <description lang="en">Elementum Burst is a lean and mean multi-provider for Elementum.</description>
-        <description lang="hr">Elementum Burst je višestruki pružatelj usluga za Elementum.</description>
+        <description lang="hr">Elementum Burst je viÅ¡estruki pruÅ¾atelj usluga za Elementum.</description>
 		<description lang="es">Elementum Burst es un multi-proveedor simple y eficiente para Elementum.</description>
         <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
-		<disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa bilo kojim izvorom sadržaja.</disclaimer>
-		<disclaimer lang="es">El autor no aloja ni distribuye ninguno de los contenidos mostrados por este complemento. El autor no tiene ninguna afiliación con los proveedores de contenido.</disclaimer>
+		<disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadrÅ¾aj koji je pronaÄ‘en. Autor nije povezan sa bilo kojim izvorom sadrÅ¾aja.</disclaimer>
+		<disclaimer lang="es">El autor no aloja ni distribuye ninguno de los contenidos mostrados por este complemento. El autor no tiene ninguna afiliaciÃ³n con los proveedores de contenido.</disclaimer>
 		<license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
         <website>https://elementum.surge.sh</website>
         <source>https://github.com/elgatito/script.elementum.burst</source>
