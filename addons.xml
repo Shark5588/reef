@@ -197,7 +197,7 @@
 
 <addon id="plugin.video.sports55classic"
        name="[B][COLOR dodgerblue]Sports 55 Classic[/B][/COLOR]"
-       version="1.0.2"
+       version="1.0.3"
        provider-name="Shark55">
 
   <requires>
@@ -221,15 +221,9 @@
     <provides>video</provides>
   </extension>
 
-   <extension point="xbmc.addon.repository" name="Shark Repository">
-	    <info compressed="false">https://raw.githubusercontent.com/Shark5588/reef/master/addons.xml</info>
-	    <checksum>https://raw.githubusercontent.com/Shark5588/reef/master/addons.xml.md5</checksum>
-	    <datadir zip="true">https://raw.githubusercontent.com/Shark5588/reef/master/</datadir>
-    </extension>
-
   <extension point="xbmc.addon.metadata">
-    <summary>[COLOR dodgerblue]Sports Classic Don't host any servers  nor streams  all content shared here is freely available all over the web [/COLOR] Peace !</summary>
-    <description lang="en">[COLOR white][B]Sports IPTV m3u  [/B][/COLOR]</description>
+    <summary>Sports IPTV m3u</summary>
+    <description lang="en">[COLOR dodgerblue]Sports Classic Don't host any servers  nor streams  all content shared here is freely available all over the web [/COLOR] Peace !</description>
     <platform>all</platform>
   </extension>
 </addon>
