@@ -22,3 +22,22 @@
 
 * The Shark
  
+ 
+ [B]Version 1.0.3[/B] 
+#Problem now sublink  don't work Help Sports 55 Classic
+
+item>
+<title>[COLORsnow]MaGNone | [/COLOR]</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.elementum/play?uri=::LISTNAME:[COLORgold]MaGNone | :-([/COLOR]::#
+sublink:LISTSOURCE:plugin://plugin.video.elementum/play?uri=::LISTNAME:[COLORgold]MaGNone | :-([/COLOR]::#
+sublink:LISTSOURCE:plugin://plugin.video.elementum/play?uri=::LISTNAME:[COLORgold]MaGNone | :-([/COLOR]::#
+sublink:LISTSOURCE:plugin://plugin.video.elementum/play?uri=::LISTNAME:[COLORgold]MaGNone | :-([/COLOR]::#
+sublink:LISTSOURCE:plugin://plugin.video.elementum/play?uri=::LISTNAME:[COLORgold]MaGNone | :-([/COLOR]::#
+sublink:LISTSOURCE:::LISTNAME:[COLORff00afaf]Trailer[/COLOR]::#
+sublink:LISTSOURCE:::LISTNAME:[COLORgold] | :-( [/COLOR]::#
+</link>
+<thumbnail></thumbnail>
+</item>
+
+Anyone ?????
