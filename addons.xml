@@ -95,7 +95,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.jaws" name="[B][COLOR dodgerblue]Jaws[/B][/COLOR]" version="0.2" provider-name="Shark55">
+<addon id="plugin.video.jaws" name="[B][COLOR dodgerblue]Jaws[/B][/COLOR]" version="0.3" provider-name="Shark55">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
