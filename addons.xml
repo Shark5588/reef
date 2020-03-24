@@ -95,7 +95,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.jaws" name="[B][COLOR dodgerblue]Jaws[/B][/COLOR]" version="0.3" provider-name="Shark55">
+<addon id="plugin.video.jaws" name="[B][COLOR dodgerblue]Jaws[/COLOR][/B]" version="0.4" provider-name="Shark55">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -116,7 +116,7 @@
     </extension>
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Bob's little sister</summary>
+        <summary lang="en">Jaws v 0.4</summary>
         <description lang="en">As of May, 2018 this is a community maintained template for learning purposes.</description>
         <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
         <platform>all</platform>
