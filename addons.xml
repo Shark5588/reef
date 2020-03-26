@@ -253,7 +253,7 @@
   </extension>
 </addon>
 
-<addon id="repository.sharkrepo" name="[COLOR dodgerblue]SHARK REPO[/COLOR]" version="1.2.7" provider-name="Shark">
+<addon id="repository.sharkrepo" name="[COLOR dodgerblue]SHARK REPO[/COLOR]" version="1.2.8" provider-name="Shark">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -267,9 +267,9 @@
 
 
     <dir>
-        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
     </dir>
 
     <dir>
@@ -286,7 +286,7 @@
 
     </extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Shark repository v1.2.7</summary>
+		<summary lang="en">Shark repository v1.2.8</summary>
 		<description lang="en">The Official Repo for The Shark</description>
 		<genre>sports,wizard,canadian,french,usa</genre>
 	</extension>
