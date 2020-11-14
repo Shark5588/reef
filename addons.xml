@@ -29,10 +29,9 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.55" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.57" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
-        <import addon="xbmc.python" version="2.24.0" />
         <import addon="repository.elementum" optional="true" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="navigation.py">
@@ -122,7 +121,7 @@
 		<import addon="script.module.feedparser" version="5.2.1" />
 		<import addon="plugin.video.elementum" version="0.0.62" optional="true"/>
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.resolveurl" />
+        <import addon="script.module.resolveurl" version="5.0.00"/>
 
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -225,7 +224,6 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.resolveurl" version="5.0.00"/>
-    <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
 	<import addon="script.module.livestreamer" optional="true"/>
 	<import addon="script.module.pyamf" optional="true"/>
@@ -297,6 +295,12 @@
         <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
     </dir>
+
+	<dir>
+    <info compressed="false">http://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml</info>
+    <checksum>http://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml.md5</checksum>
+    <datadir zip="true">http://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/</datadir>
+</dir>
 
     </extension>
 	<extension point="xbmc.addon.metadata">
